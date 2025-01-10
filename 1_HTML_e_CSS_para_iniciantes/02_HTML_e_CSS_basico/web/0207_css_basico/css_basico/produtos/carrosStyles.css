@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: 0.3%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 0.5%;
+}
+
+nav a {
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
