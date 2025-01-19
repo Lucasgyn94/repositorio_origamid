@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h2 {
+    background-color: #e7e7e7;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    margin: 0px;
+}
+
+.grid {
+    margin-top: 60px;
+
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); 
+    /*
+    -> repeat()
+    função usada para repetir uma definição de colunas ou linhas. Ela pode aceitar um número fixo de repetições ou, como no nosso caso, uma função automática (auto-fit).
+    -> auto-fit = tenta encaixar o maior número possível de colunas no espaço disponível. Se o espaço mudar, o número de colunas se ajusta automaticamente.
+    -> minmax()
+    A função minmax() define um intervalo de tamanhos permitidos para as colunas. Ela aceita dois argumentos:
+
+    1. Valor mínimo: O tamanho mínimo que a coluna pode ter.
+    2. Valor máximo: O tamanho máximo que a coluna pode ter.
+
+    */
+    gap: 20px;
+    
+
+   
+}

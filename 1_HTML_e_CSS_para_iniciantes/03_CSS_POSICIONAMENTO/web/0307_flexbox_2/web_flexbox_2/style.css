@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h2 {
+    background-color: #e7e7e7;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    margin: 0px;
+    /*flex-grow: 1;*/ /*o padrão e 0, não cresce nada*/
+    /*flex-basis: auto;*/ /*valor padrão igual a auto. Determina O crescimento, o flex-grow que se da no espaço que sobra (vazio. Quase sempre usaremos com o valor 0)*/
+    /*flex-shrink: 1;*/ /*Determina se o elemento pode ser encolhido ou não. Por padrão o valor e 1, não pode ser encolhido*/
+    flex:1 ; /*Atalho para flex-grow: 1; flex-shrink: 1; e flex-basis: 0; Qse sempre usaremos assim, e se usarmos isso, align items e justify-content não funciona mais*/
+}
