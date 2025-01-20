@@ -30,3 +30,25 @@ color, font-size, font-family e outras.
 
 ### Padrão vs Herança
 * O valor padrão irá escrever por cima da herança. Por isso ao definirmos uma color no body, os <a> não mudam de cor.
+- arquivo.html
+```
+<h1>Curso de HTML</h1>
+<p>Cursos de Design</p>
+<button>Clique</button>
+<div>Cursos de CSS</div>
+<a href="/">Curso de JavaScript</a>
+
+```
+
+- arquivo.css
+```
+body {
+  color: seagreen;
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+}
+
+```
