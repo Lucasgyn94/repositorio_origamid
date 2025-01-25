@@ -151,3 +151,6 @@ https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html
 
 ### Observação
 * Apenas cria uma landmark se não estiver dentro de main, section, article ou aside.
+
+## Leitor de tela para ubuntu
+https://www.nvaccess.org/download/

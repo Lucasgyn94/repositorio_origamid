@@ -1,0 +1,10 @@
+body {
+    height: 100%;
+    position: relative;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+footer {
+    background-color: aqua;
+    position: absolute;
+}

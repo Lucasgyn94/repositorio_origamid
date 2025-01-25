@@ -1,0 +1,16 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+a { 
+    background-color: #eee;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
