@@ -1,0 +1,35 @@
+.bicicleta {
+    height: 600px;
+    background-color: lightblue;
+    background-image: url('./img/bicicleta.jpg');
+    background-repeat: no-repeat;
+    /*background-size: contain;*/ /* e o mesmo que background-size: 100%*/
+    background-size: cover;
+    background-position: center top;
+
+    display: flex;
+    
+}
+
+h1 {
+    margin: auto;
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+.pattern {
+    height: 300px;
+    background-color: lightcoral;
+    background-image: url('./img/pattern.svg');
+    background-repeat: repeat;
+}
+
+.linear {
+    height: 200px;
+    background-image: linear-gradient(45deg, rgb(23, 94, 117) 10%, red 15%, blue 20% , gold 25%);
+}
+
+.radial {
+    height: 200px;
+    background-image: radial-gradient(circle,tomato 10%, blue, green, purple);
+}

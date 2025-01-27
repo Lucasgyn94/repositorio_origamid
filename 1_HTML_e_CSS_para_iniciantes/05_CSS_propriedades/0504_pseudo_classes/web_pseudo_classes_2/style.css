@@ -1,0 +1,34 @@
+.lista-1 li:first-child {
+    background-color: #caf;
+}
+
+.lista-1 li:last-child {
+    background-color: #cfa;
+}
+
+.lista-1 li:nth-child(3) {
+    background-color: #aaa;
+}
+
+.lista-2 li:nth-child(even) {
+    background-color: tomato;
+}
+
+.lista-2 li:nth-child(odd) {
+    background-color: purple;
+    color: white;
+}
+
+.lista-1 li:nth-child(2n) {
+    background-color: palevioletred;
+}
+
+.lista-3 li:not(:first-child, :last-child, .terceiro) {
+    background-color: #56830d;
+}
+
+h2:not(.contato) {
+    text-decoration: underline;
+}
+
+/*caf e cfa*/
