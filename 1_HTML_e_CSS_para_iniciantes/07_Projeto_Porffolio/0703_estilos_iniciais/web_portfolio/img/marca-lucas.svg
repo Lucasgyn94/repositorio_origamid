@@ -1,0 +1,10 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sombra do texto -->
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="40" fill="gray" opacity="0.5">
+        Lucas
+    </text>
+    <!-- Texto principal -->
+    <text x="8" y="48" font-family="Arial, sans-serif" font-size="40" fill="black">
+        Lucas
+    </text>
+</svg>
