@@ -10,61 +10,71 @@
 * https://ss64.com
 
 ## Movimentar (Bash)
+
 ```
 $ cd sites
 ```
-
-### Move para a pasta sites
+* Move para a pasta sites
 
 ```
 $ cd ..
 ```
-## Move para a pasta anterior
+* Move para a pasta anterior
+
 ```
 $ cd ~/Desktop/sites
 ```
-Move para a pasta sites dentro de Desktop
+* Move para a pasta sites dentro de Desktop
+
 ```
 $ cd ~
 ```
-Move para o diretório principal do sistema / home
+* Move para o diretório principal do sistema / home
+
 ```
 $ clear
 ```
+* Limpa a tela
 
-Limpa a tela
+## Listar e Criar (Bash)
 
-Listar e Criar (Bash)
 ```
 $ ls
 ```
-Lista diretórios e arquivos
+* Lista diretórios e arquivos
+
 ```
 $ ls -all
 ```
-Lista diretórios, arquivos, invisíveis e detalhes
+* Lista diretórios, arquivos, invisíveis e detalhes
+
 ```
 $ mkdir site
 ```
-Cria o diretório site
+* Cria o diretório site
+
 ```
 $ touch index.html
 ```
-Cria o arquivo index.html
+* Cria o arquivo index.html
 
-Remover (Bash)
+## Remover (Bash)
+```
 $ rm index.html
+```
+* Remove o arquivo index.html
 
-Remove o arquivo index.html
-
+```
 $ rm -r site
+```
+* Remove o diretório site e todos os arquivos dentro dele
 
-Remove o diretório site e todos os arquivos dentro dele
-
+```
 seta para cima / baixo
+```
+* Acessa o comando anterior
 
-Acessa o comando anterior
-
+```
 tab
-
-Auto-completa o comando
+```
+* Auto-completa o comando
