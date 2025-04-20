@@ -1,0 +1,97 @@
+.introducao {
+    max-width: 1200px;
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 6.25rem;
+    align-items: center;
+    
+}
+
+.introducao h1 {
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 1.875rem;
+    position: relative;
+}
+
+.introducao h1::before {
+    content: '';
+    display: block;
+
+    width: 130px;
+    height: 100px;
+    background: url("../img/detalhe.svg") no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
+}
+
+.introducao p {
+    font-size: 1.5rem;
+    color: #525252;
+}
+
+@media (max-width: 1000px) {
+    .introducao h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .introducao {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+
+    }
+    .introducao h1 {
+        font-size: 2rem;
+    }
+
+    .introducao h1::before {
+        width: 30px;
+        height: 10px;
+        left: 0px;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+    .introducao {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .introducao img {
+        display: none;
+    }
+
+    .introducao p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .introducao p {
+        font-size: 1rem;
+    }
+}
+
+/*
+
+20 / 16 = 1.25rem
+24 / 16 = 1.5rem
+30 / 16 = 1.875rem
+40 / 16 = 2.5rem
+10 / 16 = 0.625rem
+100 / 16 = 6.25rem
+120 / 16 = 7.5rem
+
+
+4.5 * 16 = 72
+72 * 1.125 = 81
+*/
