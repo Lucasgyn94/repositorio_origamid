@@ -11,7 +11,7 @@
 .header__menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.625rem;
+    gap: 0px 1.25rem;
     justify-content: center;
 
 }
@@ -23,7 +23,7 @@
     text-decoration: none;
     color: #141414;
     display: block;
-
+    background-color: #f0f0f0;
     transition: background-color 0.3s, transform 0.3s;
 
 }
