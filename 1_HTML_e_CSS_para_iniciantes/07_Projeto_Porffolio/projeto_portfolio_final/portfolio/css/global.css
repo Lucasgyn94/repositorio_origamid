@@ -10,7 +10,7 @@ h1, h2, h3, p {
     margin: 0px;
 }
 
-h1, h2, .experiencia h3 {
+h1, h2, .experiencia h3, .empresa__titulo {
     font-family: 'Playfair Display', 'Fira Sans', Arial, sans-serif;
 }
 

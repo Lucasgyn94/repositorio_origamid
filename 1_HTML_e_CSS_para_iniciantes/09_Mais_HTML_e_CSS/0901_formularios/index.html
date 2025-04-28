@@ -8,9 +8,43 @@
 </head>
 <body>
     <form action="./">
+        <!--
         <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome">
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cpf">CPF</label>
+        <input 
+            type="text" 
+            id="cpf" 
+            name="cpf"  
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"  placeholder="xxx.xxx.xxx-xx">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" disabled>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" 
+        required>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+
+        <label for="saida">Saída do Hotel</label>
+        <input type="date" id="saida" name="saida">
+
+        -->
+        <div class="checkbox">
+            <input type="checkbox" id="termos" name="termos" value="aceito">
+            <label for="termos">Aceito os termos e condições da empresa</label>
+
+            <input type="checkbox" id="termos" name="termos" value="aceito">
+            <label for="termos">Aceito receber os anúncios</label>
+            
+        </div>
+
         <button>Enviar</button>
+
     </form>
+
 </body>
 </html>

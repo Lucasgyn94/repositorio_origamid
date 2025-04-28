@@ -15,7 +15,28 @@
     line-height: 1.125;
     margin-bottom: 1.875rem;
     position: relative;
+
+    white-space: nowrap; /* Evita quebra de linha durante a digitação */
+/*    overflow: hidden;  Esconde o texto que ainda não foi digitado */
+
 }
+
+.typing-cursor {
+    display: inline-block; /* Garante que o span se comporte como parte do texto */
+    width: 2px; /* Espessura do cursor */
+    height: 1em; /* Altura do cursor baseada no tamanho da fonte do h1 */
+    background-color: #141414; /* Cor do cursor (pode ser a cor do texto) */
+    animation: blink 0.7s infinite step-end; /* Animação de piscar */
+    vertical-align: middle; /* Alinha o cursor verticalmente com o texto */
+    margin-left: 2px; /* Pequeno espaço após o texto digitado */
+}
+
+@keyframes blink {
+    from, to { background-color: transparent; }
+    50% { background-color: #141414; } /* Cor do cursor na metade do ciclo */
+}
+
+
 
 .introducao h1::before {
     content: '';
