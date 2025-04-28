@@ -2,22 +2,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Seleciona o elemento h1 dentro da seção de introdução
     const cabecalhoDinamico = document.querySelector('.introducao h1');
 
-    // *** NOVA ABORDAGEM: Definir as linhas a serem digitadas diretamente no código ***
-    // Substitua estas strings pelas linhas exatas que você deseja que apareçam no seu título.
-    const linesToType = [
+    const linhasParaDigitar = [
         "Desenvolvedor",
         "Front End,",
-        "Back End &", // Ajuste aqui se precisar de '&' ou 'e'
+        "Back End &",
         "UX/UI Designer"
     ];
-    // *** FIM DA NOVA ABORDAGEM ***
-
 
     // Limpa completamente o conteúdo inicial do h1
     cabecalhoDinamico.innerHTML = '';
 
     // Variáveis para controlar a digitação
-    let indexLinhaAtual = 0; // Índice da linha atual sendo digitada (usando o array linesToType)
+    let indexLinhaAtual = 0; // Índice da linha atual sendo digitada (usando o array linhasParaDigitar)
     let indexCaractereAtual = 0; // Índice do caractere atual na linha
     const velocidadeDigitacao = 70; // Velocidade de digitação em milissegundos por caractere
     const atrasoNovaLinha = 500; // Atraso em milissegundos antes de iniciar a digitação de uma nova linha
@@ -29,8 +25,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Função principal que realiza o efeito de digitação
     function efeitoDigitacao() {
         // Verifica se ainda há linhas para digitar (no array linesToType)
-        if (indexLinhaAtual < linesToType.length) {
-            const currentLine = linesToType[indexLinhaAtual]; // Pega a linha atual do array
+        if (indexLinhaAtual < linhasParaDigitar.length) {
+            const currentLine = linhasParaDigitar[indexLinhaAtual]; // Pega a linha atual do array
 
             // Verifica se ainda há caracteres para digitar na linha atual
             if (indexCaractereAtual < currentLine.length) {
@@ -49,7 +45,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             } else {
                 // Chegou ao final da linha atual
                 // Verifica se não é a última linha do array
-                if (indexLinhaAtual < linesToType.length - 1) {
+                if (indexLinhaAtual < linhasParaDigitar.length - 1) {
                     // Se não for a última linha, adiciona uma quebra de linha real e prepara para a próxima
                     if (cabecalhoDinamico.contains(cursorSpan)) {
                        cabecalhoDinamico.removeChild(cursorSpan); // Remove cursor antes de adicionar o BR
