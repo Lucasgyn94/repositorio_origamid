@@ -52,6 +52,11 @@
     max-width: 200px;
 }
 
+.faculdade__lista:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .faculdade {
     flex: 1;
     background-color: #000000;
