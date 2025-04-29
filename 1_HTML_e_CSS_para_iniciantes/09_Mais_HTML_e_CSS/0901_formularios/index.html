@@ -33,18 +33,56 @@
         <input type="date" id="saida" name="saida">
 
         -->
+
+        <!--
         <div class="checkbox">
             <input type="checkbox" id="termos" name="termos" value="aceito">
             <label for="termos">Aceito os termos e condições da empresa</label>
-
-            <input type="checkbox" id="termos" name="termos" value="aceito">
-            <label for="termos">Aceito receber os anúncios</label>
-            
         </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="anuncio" name="anuncio">
+            <label for="anuncio">Desejo receber anúncios.</label>
+        </div>
+
+        <p>Entrega:</p>
+        <div class="radio">
+            <input type="radio" id="retirada" name="retirada">
+            <label for="retirada">Retirar no local.</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="entrega" name="retirada">
+            <label for="entrega">Entrega em casa.</label>
+        </div>
+
+        <p>Futuro:</p>
+        <div class="radio">
+            <input type="radio" id="retirada2" name="futuro">
+            <label for="retirada2">Retirar no local.</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="entrega2" name="futuro">
+            <label for="entrega2">Entrega em casa.</label>
+        </div>
+        -->
+
+        <label for="parcelas"></label>
+        <select name="parcelas" id="parcelas">
+            <option value="1x">1x de 200</option>
+            <option value="2x">2x de 200</option>
+            <option value="4x">4x de 200</option>
+
+
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
 
         <button>Enviar</button>
 
     </form>
-
+    
 </body>
 </html>
