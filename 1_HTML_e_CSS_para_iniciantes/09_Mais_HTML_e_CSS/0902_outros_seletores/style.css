@@ -1,0 +1,50 @@
+/*
+p[required] {
+    border: 2px solid blueviolet;
+}
+p [required] {
+    border: 2px solid tomato;
+}
+
+a[href="#contato"] {
+    border: 2px solid greenyellow;
+    padding: 10px 20px;
+}
+
+[href^="#"] {
+    background-color: aquamarine;
+}
+
+[href$=".com"] {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+}
+*/
+section > h2 {
+    color: tomato;
+}
+
+p {
+    margin: 0px;
+}
+article {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/*
+p {
+    margin-bottom: 20px;
+}
+
+article p:last-child {
+    margin-bottom: 0px;
+}
+*/
+p + p {
+    margin-top: 20px;
+}
+
+* {
+    border: solid 2px red;
+}
