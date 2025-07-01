@@ -1,3 +1,6 @@
 [submodule "portfolio-html-css"]
 	path = portfolio-html-css
 	url = https://github.com/Lucasgyn94/portfolio-html-css.git
+[submodule "1_HTML_e_CSS_para_iniciantes/10_Projeto_Final/bikcraft"]
+	path = 1_HTML_e_CSS_para_iniciantes/10_Projeto_Final/bikcraft
+	url = https://github.com/Lucasgyn94/bikcraft.git
